@@ -1,0 +1,58 @@
+.introduction-container {
+    display:flex;
+    background-color:hsl(0, 0%, 98%);
+    margin-top: 10px;
+}
+
+.img-introduction{
+    background-size:cover;
+    box-sizing: border-box;
+}
+
+.img-introduction img{
+    margin-top: 20px;
+}
+
+.text{
+    margin:200px 120px 0;
+    width:90%;
+}
+
+
+h1{ 
+    font-size:55px;
+    color:hsl(233, 26%, 24%);
+}
+
+p{
+    margin:20px 0;
+    width:90%;
+    font-size:20px;
+    line-height:28px;
+}
+
+.btn-introduction{
+    margin-top:20px;
+    font-size:20px;
+    padding:auto 40px;
+}
+
+.btn-top{
+    padding:20px 45px;
+    border-radius:50px;
+    border:none;
+    background-image:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    color:hsl(0, 0%, 100%);
+    cursor:pointer;
+    font-size:22px;
+}
+
+.btn:hover{
+    opacity:0.8;
+}
+
+
+
+
+
+

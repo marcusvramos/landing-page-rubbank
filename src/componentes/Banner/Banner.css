@@ -1,8 +1,13 @@
 .banner {
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
     text-align: center;
-    background-color: #CAD1FD;
+    background-color: #6B7AE5;
 }
 
-.banner img {
-    max-width: 100%;
+.imagem img{
+    height: 300px;
+    opacity: 0.5;
 }
+

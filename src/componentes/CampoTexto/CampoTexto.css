@@ -6,7 +6,7 @@
 .campo-texto label {
     display: block;
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .campo-texto input {
@@ -14,7 +14,7 @@
     box-shadow: 10PX 10PX 30PX RGBA(0, 0, 0, 0.3);
     width: 100%;
     border: none;
-    font-size: 24px;
-    padding: 24px;
+    font-size: 18px;
+    padding: 20px;
     box-sizing: border-box; /* trick para ajustar o tamanho dos itens que vazam da tela */
 }
