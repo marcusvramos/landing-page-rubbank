@@ -5,6 +5,8 @@
 }
 
 .img-introduction{
+    padding: 30px;
+    width: 60%;
     background-size: cover;
     box-sizing: border-box;
 }
@@ -16,13 +18,13 @@
 .text{
     background-color: #fff;
     margin:200px 120px 0;
-    width:90%;
+    width:60%;
 }
 
 
 h1{ 
     font-size:55px;
-    color:hsl(233, 26%, 24%);
+    color:#323070;
 }
 
 p{
@@ -39,10 +41,11 @@ p{
 }
 
 .btn-top{
+    margin-top: 45px;
     padding:20px 45px;
     border-radius:50px;
     border:none;
-    background-image:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    background-color: #6B7AE5;
     color:hsl(0, 0%, 100%);
     cursor:pointer;
     font-size:22px;
