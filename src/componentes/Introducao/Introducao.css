@@ -1,11 +1,11 @@
 .introduction-container {
     display:flex;
-    background-color:hsl(0, 0%, 98%);
+    background-color:#FFF;
     margin-top: 10px;
 }
 
 .img-introduction{
-    background-size:cover;
+    background-size: cover;
     box-sizing: border-box;
 }
 
@@ -14,6 +14,7 @@
 }
 
 .text{
+    background-color: #fff;
     margin:200px 120px 0;
     width:90%;
 }

@@ -14,7 +14,7 @@ const Introducao = () => {
             </div>
 
             <div class="img-introduction"  style={{ backgroundImage: `url(${background})` }}>
-                <img src="https://github.com/Obizim/Easybank-landing-page/blob/master/images/image-mockups.png?raw=true" alt="" />
+                <img src="https://github.com/marcus-rubcube/rubcamp-landing-page/tree/main/public/imagens/celulares.png" alt="" />
             </div>
         </div>
     )
