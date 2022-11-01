@@ -10,10 +10,8 @@ const Menu = () => {
             <div className='list'>
                 <ul>
                     <li>Home</li>
-                    <li>About Us</li>
-                    <li>How it Works</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <li>Sobre Nós</li>
+                    <li>Contato</li>
                 </ul>
             </div>
 

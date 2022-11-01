@@ -1,7 +1,9 @@
 .container-escolha{
-    background-color: #6b79e54b;
+    display: flex;
+    flex-direction: column;
+    background-color: #6b79e52c;
     padding-bottom: 20px;
-    height:600px;
+    height:auto;
 }
 
 .text2{
@@ -11,8 +13,12 @@
 
 h2{
     color: #323070;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 1em;
+}
+
+.primeiro-paragrafo{
+    font-size: 26px;
 }
 
 .text2 p {
@@ -21,14 +27,27 @@ h2{
 
 .cards-container{
     display:flex;
-    padding-bottom: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
     padding-left: 115px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
     
 }
 
 .cards{
+    width: 25%;
     display:grid;
     text-align:left;
+}
+
+.cards img{
+    width: 25%;
+}
+
+.texto-descritivo {
+    font-size: 25px;
 }
 
 .title{
