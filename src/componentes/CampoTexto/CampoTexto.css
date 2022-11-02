@@ -3,18 +3,17 @@
 
 }
 
-.campo-texto label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 18px;
-}
 
 .campo-texto input {
-    background-color: #fff;
-    box-shadow: 10PX 10PX 30PX RGBA(0, 0, 0, 0.3);
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     width: 100%;
-    border: none;
-    font-size: 18px;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
+    padding-left: 0px;
     box-sizing: border-box; /* trick para ajustar o tamanho dos itens que vazam da tela */
 }

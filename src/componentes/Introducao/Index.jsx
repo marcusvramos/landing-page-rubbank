@@ -6,7 +6,7 @@ const Introducao = () => {
     return (
         <div className='introduction-container'>
  
-            <div class="text">
+            <div className="text">
                 <h1>Escolha o Futuro... Comece a controlar sua vida Financeira com o RubBank!</h1>
                 <p>
                     Alavanque sua vida financeira online. Sua conta RubBank 
@@ -14,13 +14,14 @@ const Introducao = () => {
                     simples e prática.
                     A próxima geração dos Bancos Digitais!
                 </p>
-                <button class="btn btn-top btn-introduction">Conhecer Mais</button>
+                <button className="btn btn-top btn-introduction">Baixar Agora</button>
             </div>
 
-            <div class="img-introduction"  style={{ backgroundImage: `url(${background})` }}>
+            <div className="img-introduction"  style={{ backgroundImage: `url(${background})`}}>
                 <img src={celular} alt="Telas RubBank" />
             </div>
         </div>
+        
     )
 
 }

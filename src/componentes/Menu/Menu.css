@@ -29,15 +29,15 @@
 }
 
 .menu li:hover{
-    color: #17A4D0;
+    color: #323070;
 }
 
 .menu button{
     background-color: transparent;
     width: 200px;
     height: 50px;
-    border: 2px solid #17A4D0;
-    color: #17A4D0;
+    border: 2px solid #323070;
+    color: #323070;
     font-size: 24px;
     border-radius: 5px;
     cursor: pointer;
@@ -46,6 +46,6 @@
 
 .menu button:hover{
     color: white;
-    background-color: #17A4D0;
-    box-shadow: 0px 0px 17px -5px #17A4D0;
+    background-color: #323070;
+    box-shadow: 0px 0px 17px -5px #323070;
 }

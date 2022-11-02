@@ -2,6 +2,10 @@ import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import './Formulario.css'
+import image_form from '../../assets/form-image.svg'
+import logo_form from '../../assets/logo-form.svg'
+import background from './backGround.svg'
+
 
 
 
@@ -19,31 +23,35 @@ const Formulario = (props) => {
     }
 
     return (
+        <div className='container'>
+            <div>
+                <img src={logo_form} alt="logo Rub" className='imagem-logo'/>
+                <img src={image_form} alt="imagem representativa de email" className='imagem-email'/>
+            </div>
+            <section className='formulario formatacao' >
+                <form onSubmit={aoSalvar}> 
+                <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
+                    <CampoTexto 
+                    required={true} 
+                    placeholder="Digite seu nome"
+                    valor={nome}
+                    aoAlterado={valor => setNome(valor)}
+                    />
+
+                    <CampoTexto 
+                    required={true} 
+                    placeholder="Digite seu Email - exemplo@exemplo.com"
+                    valor={email}
+                    aoAlterado={valor => setEmail(valor)}
+                    />
+
+                    <Botao texto="Enviar Formulário">
+                        Enviar Formulário
+                    </Botao>
+                </form>
+            </section>
+        </div>
         
-        <section className='formulario formatacao'>
-            <form onSubmit={aoSalvar}> 
-            <h2>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
-                <CampoTexto 
-                required={true} 
-                label="Nome" 
-                placeholder="Digite seu nome"
-                valor={nome}
-                aoAlterado={valor => setNome(valor)}
-                />
-
-                <CampoTexto 
-                required={true} 
-                label="Email" 
-                placeholder="Digite seu Email - exemplo@exemplo.com"
-                valor={email}
-                aoAlterado={valor => setEmail(valor)}
-                />
-
-                 <Botao texto="Enviar Formulário">
-                    Enviar Formulário
-                </Botao>
-            </form>
-        </section>
     )
 }
 

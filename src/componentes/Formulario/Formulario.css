@@ -1,23 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.formulario {
+.container{
+    /*z-index: -10;
+    background-image: url('./backGround.svg');
+    width: 100%;
+    background-size: cover;*/
     display: flex;
-    justify-content: center;
-    margin: 80px 0px;
-}
 
-h2{
-    font-size: 21px;
-}
-
-.formulario form{
-    width: 60%;
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 36px 64px;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
 }
 
 .formatacao {
     font-family: 'Montserrat', sans-serif;
 }
+
+.imagem-logo{
+    display: block;
+    padding-left:10em;
+    width: 25%;
+}
+
+.imagem-email{
+    padding-left: 10em;
+    box-shadow: 12px 139px 43px -125px rgba(0,0,0,0.38);
+}
+
+
+.formulario {
+    width: 40%;
+    height: auto;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    border-radius: 20px;
+    margin: 80px;
+
+}
+
+.segundo-titulo{
+    font-size: 32px;
+}
+
+.formulario form{
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+

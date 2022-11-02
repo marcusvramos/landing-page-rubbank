@@ -37,8 +37,8 @@ h2{
 }
 
 .cards{
+
     width: 25%;
-    display:grid;
     text-align:left;
 }
 
@@ -51,6 +51,8 @@ h2{
 }
 
 .title{
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 600;
     color:#323070;
 }
