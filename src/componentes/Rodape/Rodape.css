@@ -1,0 +1,40 @@
+.rodape{
+    margin-top: -50px;
+    background-color: #2C2E5F;
+    height: auto;
+}
+
+.containerzao{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px;
+}
+.containerzao img{
+    width: 150%;
+}
+
+.container-rodape{
+    display: flex;
+}
+
+
+.botao-rodape{
+    display: flex;
+    
+
+}
+
+.botao-rodape button{
+    padding: 20px 48px;
+    font-size: 26px;
+}
+
+
+.texto-footer{
+    padding-bottom: 50px;
+    width:90%;
+    font-size:24px;
+    line-height:28px;
+    text-align: center;
+    color: #FFF;
+}

@@ -1,22 +1,26 @@
 .menu{
+    top: 0;
+    position: fixed;
     width: 100%;
-    max-width: 1200px;
+    background-color: #FFF;
     margin: auto;
-    margin-top: 30px;
-    height: 42px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     margin-bottom: 50px;
+    padding: 0 100px 0 100px;
+    box-sizing: border-box;
 }
+
 
 .menu img{
     width: 220%;
 }
 
-.list ul{
-    margin-left: 20em;
+.list {
+    display: flex;
 }
 
 .menu li {

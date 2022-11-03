@@ -1,7 +1,7 @@
 .introduction-container {
     display:flex;
     background-color:#FFF;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .img-introduction{
@@ -23,40 +23,28 @@
 
 
 h1{ 
-    font-size:55px;
+    padding-bottom: 30px;
+    font-size:50px;
     color:#323070;
 }
 
-p{
-    margin:20px 0;
+.p-introducao{
+    padding: 30px 0 30px 0;
     width:90%;
     font-size:24px;
     line-height:28px;
 }
 
-.btn-introduction{
-    margin-top:20px;
-    font-size:20px;
-    padding:auto 40px;
+.botao-intro{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
 }
 
-.btn-top{
-    width: 300px;
-    height: 75px;
-    margin-top: 60px;
-    padding:20px 45px;
-    border-radius:50px;
-    border:none;
-    background-color: #6B7AE5;
-    color:hsl(0, 0%, 100%);
-    cursor:pointer;
-    font-size:28px;
-    font-weight: 600;
+.botao-intro button{
+    font-size: 28px;
 }
 
-.btn:hover{
-    opacity:0.8;
-}
 
 
 

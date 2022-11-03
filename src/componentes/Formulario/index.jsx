@@ -1,12 +1,8 @@
 import { useState } from 'react'
-import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import './Formulario.css'
 import image_form from '../../assets/form-image.svg'
 import logo_form from '../../assets/logo-form.svg'
-import background from './backGround.svg'
-
-
 
 
 const Formulario = (props) => {
@@ -23,7 +19,7 @@ const Formulario = (props) => {
     }
 
     return (
-        <div className='container'>
+        <div className='container-form' >
             <div>
                 <img src={logo_form} alt="logo Rub" className='imagem-logo'/>
                 <img src={image_form} alt="imagem representativa de email" className='imagem-email'/>
@@ -45,9 +41,11 @@ const Formulario = (props) => {
                     aoAlterado={valor => setEmail(valor)}
                     />
 
-                    <Botao texto="Enviar Formulário">
-                        Enviar Formulário
-                    </Botao>
+                    <div className='container-botao'>
+                        <button className='botao-form'>
+                            Enviar Formulário
+                        </button>
+                    </div>
                 </form>
             </section>
         </div>

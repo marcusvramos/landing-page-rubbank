@@ -9,15 +9,15 @@ const Menu = () => {
 
             <div className='list'>
                 <ul>
-                    <li>Home</li>
                     <li>Sobre Nós</li>
                     <li>Contato</li>
                 </ul>
+                
+                <button>Baixar RubBank</button>
             </div>
 
-            <div>
-                <button>Cadastre-se</button>
-            </div>
+           
+          
 
         </nav>
     )
