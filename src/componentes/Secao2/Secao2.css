@@ -59,7 +59,7 @@ h2{
     color:#323070;
 }
 
-.cards p {
+.p-cards {
     width:90%;
     font-size: 21px;
 }
@@ -68,7 +68,7 @@ h2{
 margin:40px 0;  
 }
 
-.cards span{
+.title{
 font-size:23px;
 }
 
@@ -80,4 +80,72 @@ height:800px;
 .cards-flex{
 display:flex;
 margin:20px 60px;
+}
+
+@media (max-width: 430px){
+    .container-escolha{
+        margin: 0px;
+    }
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    h2{
+        margin: 0px;
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+         font-weight: bold;
+    }
+
+    .text2 p{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .texto-descritivo{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size:18px;
+    }
+
+    .p-introducao{
+        padding: 25px 0 30px 0;
+        width:80%;
+        font-size:18px;
+        text-align: center;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cards-container img{
+        width: 30%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-cards{
+        text-align: center;
+        font-size:18px;
+    }
+    
+    .title{
+        font-size: 20px;
+    }
+
+
 }

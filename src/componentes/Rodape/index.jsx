@@ -15,11 +15,17 @@ const Rodape = () => {
             <div className='containerzao'>
                 <div className='container-rodape'>
                     <img src={logo02} className="logo-rodape" alt="Logo RubCube" />
+                    <div className='redes'>
+                        <a href="https://www.instagram.com/rubcube.com.br/" target="_blank" rel="noreferrer" className='insta-hidden'><img src={instagram} alt="Logo Instagram" /></a>
+                        <a href="https://www.linkedin.com/company/rubcube" target="_blank" rel="noreferrer" className='linke-hidden'><img src={linkedin} alt="Logo Linkedin" /></a>
+                    </div>
                 </div>
                 <div className='lista'>
 
-                    <a href="https://www.instagram.com/rubcube.com.br/" target="_blank" rel="noreferrer"><img src={instagram} alt="Logo Instagram" /></a>
-                    <a href="https://www.linkedin.com/company/rubcube" target="_blank" rel="noreferrer"><img src={linkedin} alt="Logo Linkedin" /></a>
+                    <div className='redes-block'>
+                        <a href="https://www.instagram.com/rubcube.com.br/" target="_blank" rel="noreferrer" className='insta-a'><img src={instagram} alt="Logo Instagram" /></a>
+                        <a href="https://www.linkedin.com/company/rubcube" target="_blank" rel="noreferrer" className='link-a'><img src={linkedin} alt="Logo Linkedin" /></a>
+                    </div>
                     <div className='container-downloads'>
                         <a href="https://play.google.com/store/apps/details?id=bbc.mobile.news.ww&amp;hl=en" target="_blank" rel="noreferrer">
                             <img className="play-store" src="//news.files.bbci.co.uk/include/newsspec/19854/assets/app-project-assets/google_play_store.svg" alt='PlayStore'/>

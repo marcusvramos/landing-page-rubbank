@@ -13,10 +13,10 @@ const Menu = () => {
             <div className='list'>
                 <ul>
                     <a href="#sobre-nos">
-                        <li>Sobre Nós</li>
+                        <li id="sobre">Sobre Nós</li>
                     </a>
                     <a href="#form-contato">
-                        <li>Contato</li>
+                        <li id="contato">Contato</li>
                     </a>
                 </ul>
                 

@@ -1,5 +1,4 @@
 import './Introducao.css'
-import background from "./bgIntro.svg";
 import celular from "../../assets/celulares.svg"
 import Botao from '../Botao';
 
@@ -22,8 +21,8 @@ const Introducao = () => {
                 </div>
             </div>
 
-            <div className="img-introduction"  style={{ backgroundImage: `url(${background})`}}>
-                <img src={celular} alt="Telas RubBank" />
+            <div className="img-introduction">
+                <img id="celulares" src={celular} alt="Telas RubBank" />
             </div>
         </div>
         

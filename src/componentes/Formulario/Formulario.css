@@ -15,7 +15,11 @@
 .imagem-logo{
     display: block;
     padding-left:10em;
-    width: 25%;
+    width: 40%;
+}
+
+.segundo-titulo-hidden{
+    display: none;
 }
 
 .imagem-email{
@@ -36,12 +40,17 @@
 
 }
 
+.img-form-hidden{
+    display: none;
+}
+
 .formulario p{
     color: #323070;
     font-size: 22px;
     font-weight: bold;
     padding: 0px 0px 60px 0px;
 }
+
 
 .segundo-titulo{
     font-size: 32px;
@@ -71,7 +80,87 @@
     transition: 0.5s;
 }
 
+.botao-form-hidden{
+    display: none;
+}
+
 .botao-form:hover{
     color: #323070
 }
 
+
+@media (max-width: 430px){
+
+    .imagem-logo{
+        display: none;
+    }
+
+    .imagem-email{
+        display: none;
+    }
+
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .segundo-titulo{
+        display: none;
+    }
+
+
+    .segundo-titulo-hidden{
+        box-sizing: border-box;
+        font-size: 24px;
+        padding: 20px;
+        font-weight: bold;
+        display: block;
+    }
+
+    #form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .formulario{
+        width: 90%;
+ 
+    }
+
+    .formulario p{
+        font-size: 16px;
+    }
+
+    .container-botao{
+        width: 100%;
+    }
+
+    .botao-form-hidden{
+        background-color: #6278f7;
+        border-radius: 30px;
+        border: none;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 25px;
+        color: #FFF;
+        cursor: pointer;
+        transition: 0.5s;
+        display: block;
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .botao-form{
+        display: none; 
+    }
+
+    .img-form-hidden{
+        display: block;
+    }
+
+}

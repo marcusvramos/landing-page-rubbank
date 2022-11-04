@@ -29,8 +29,15 @@
 }
 
 .lista a img{
-    width: 45%; 
+    width: 70%; 
     padding: 25px;
+}
+
+.insta{
+    width: 20%;
+}
+.link{
+    width:20%;
 }
 
 
@@ -69,3 +76,92 @@
 .rodape a:hover{
     color: #4d67ff;
 }
+
+.redes{
+    display: none;
+}
+
+.redes-block{
+    display: flex;
+   
+}
+
+.redes-block a img{
+    width: 105%;
+   
+}
+
+@media (max-width: 430px){
+
+    .containerzao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px
+    }
+
+    .container-rodape{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container-rodape img{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .redes{
+        display: flex;
+        
+    }
+
+    .linke-hidden img{
+        width: 60%;
+    }
+
+
+    .insta-hidden img{
+        display: block;
+        width: 60%;
+    }
+
+    .redes-block{
+        display: none;
+    }
+
+    .texto-footer{
+        width: 100%;
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .container-downloads{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .container-downloads a{
+        width: 100%;
+    }
+
+    img.play-store{
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .lista{
+        width: 50%;
+    }
+
+    .lista a img {
+        width: 100%;
+    }
+    
+}
+

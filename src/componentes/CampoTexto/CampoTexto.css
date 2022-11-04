@@ -17,3 +17,17 @@
     padding-left: 0px;
     box-sizing: border-box; /* trick para ajustar o tamanho dos itens que vazam da tela */
 }
+
+@media (max-width: 430px){
+    .campo-texto {
+        margin: 0px;
+        padding: 50px 0px;
+    }
+
+    .campo-texto input{
+        font-size: 18px;
+        margin: 0px;
+    }
+
+
+}
