@@ -31,7 +31,7 @@ const Rodape = () => {
 
                 </div>
             </div>
-            <p className='texto-footer'>Copyright ©{ano} Todos os direitos reservados | Powered by RubCube</p>
+            <p className='texto-footer'>Copyright ©{ano} Todos os direitos reservados | Powered by <a href="https://www.rubcube.com/" target="_blank" rel="noreferrer">RubCube</a></p>
         </footer>
     )
 

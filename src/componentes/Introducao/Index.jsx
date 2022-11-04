@@ -7,7 +7,7 @@ import Botao from '../Botao';
 
 const Introducao = () => {
     return (
-        <div className='introduction-container'>
+        <div className='introduction-container' id="inicio-landing">
  
             <div className="text formatacao">
                 <h1>Escolha o Futuro... Comece a controlar sua vida Financeira com o RubBank!</h1>

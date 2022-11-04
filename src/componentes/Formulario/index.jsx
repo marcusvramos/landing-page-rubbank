@@ -41,6 +41,8 @@ const Formulario = (props) => {
                     aoAlterado={valor => setEmail(valor)}
                     />
 
+                    <p>O Banco Digital perfeito para você!</p>
+
                     <div className='container-botao'>
                         <button className='botao-form'>
                             Enviar Formulário

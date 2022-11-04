@@ -59,3 +59,13 @@
   width: 5%;
   margin-bottom: 8px;
 }
+
+.rodape a{
+    text-decoration: none;
+    color: #6278f7;
+    transition: 0.5s;
+}
+
+.rodape a:hover{
+    color: #4d67ff;
+}

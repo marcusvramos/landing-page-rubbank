@@ -36,8 +36,16 @@
 
 }
 
+.formulario p{
+    color: #323070;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px 0px 60px 0px;
+}
+
 .segundo-titulo{
     font-size: 32px;
+    padding-bottom: 0;
 }
 
 .formulario form{
