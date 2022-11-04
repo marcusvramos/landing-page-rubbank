@@ -10,10 +10,10 @@ const Secao2 = () => {
     const ano = data.getFullYear()
 
     return (
-        <div className="container-escolha">
+        <div className="container-escolha" id="sobre-nos">
             <div className="text2">    
                 <h2>Porque Escolher o RubBank?</h2>
-                <p className='texto-descritivo'>O Banco Digital desenvolvido por Pessosas para Pessoas... Sabemos de suas necessidades e criamos o RubBank para soluciona-las!</p>
+                <p className='texto-descritivo'>O Banco Digital desenvolvido por Pessoas para Pessoas... Sabemos de suas necessidades e criamos o RubBank para soluciona-las!</p>
             </div>
             <div className="cards-container">
                 <div className="cards">

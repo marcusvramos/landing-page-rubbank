@@ -2,15 +2,19 @@ import './Menu.css'
 
 const Menu = () => {
     return (
-        <nav className='menu'>
+        <nav className='menu formatacao'>
             <div>
                 <img src="logo-rub.svg" alt="Logo RubBank" />
             </div>
 
             <div className='list'>
                 <ul>
-                    <li>Sobre Nós</li>
-                    <li>Contato</li>
+                    <a href="#sobre-nos">
+                        <li>Sobre Nós</li>
+                    </a>
+                    <a href="#form-contato">
+                        <li>Contato</li>
+                    </a>
                 </ul>
                 
                 <button>Baixar RubBank</button>

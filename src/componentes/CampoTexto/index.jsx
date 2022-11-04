@@ -7,7 +7,7 @@ const CampoTexto = (props) => {
     }
 
     return (
-        <div className="campo-texto">
+        <div className="campo-texto formatacao">
             <label>
                 {props.label}
             </label>

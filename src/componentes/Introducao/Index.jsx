@@ -9,7 +9,7 @@ const Introducao = () => {
     return (
         <div className='introduction-container'>
  
-            <div className="text">
+            <div className="text formatacao">
                 <h1>Escolha o Futuro... Comece a controlar sua vida Financeira com o RubBank!</h1>
                 <p className='p-introducao'>
                     Alavanque sua vida financeira online. Sua conta RubBank 

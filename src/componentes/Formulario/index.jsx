@@ -19,7 +19,7 @@ const Formulario = (props) => {
     }
 
     return (
-        <div className='container-form' >
+        <div className='container-form' id="form-contato">
             <div>
                 <img src={logo_form} alt="logo Rub" className='imagem-logo'/>
                 <img src={image_form} alt="imagem representativa de email" className='imagem-email'/>

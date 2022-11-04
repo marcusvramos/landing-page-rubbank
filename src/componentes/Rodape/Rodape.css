@@ -5,10 +5,13 @@
 }
 
 .containerzao{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 80px 150px;
+    padding: 25px 0px 25px 200px;
+    box-sizing: border-box;
 }
+
 .containerzao img{
     width: 150%;
 }
@@ -18,15 +21,23 @@
 }
 
 
-.botao-rodape{
+.lista{
     display: flex;
+    align-items: center;
+    width: 50%;
     
-
 }
 
-.botao-rodape button{
-    padding: 20px 48px;
-    font-size: 26px;
+.lista a img{
+    width: 45%; 
+    padding: 25px;
+}
+
+
+.lista button{
+    width: 100%;
+    padding: 20px 55px;
+    font-size: 25px;
 }
 
 
@@ -37,4 +48,14 @@
     line-height:28px;
     text-align: center;
     color: #FFF;
+}
+
+.container-downloads{
+    width: 50%;
+}
+
+.play-store ,
+.app-store {
+  width: 5%;
+  margin-bottom: 8px;
 }
