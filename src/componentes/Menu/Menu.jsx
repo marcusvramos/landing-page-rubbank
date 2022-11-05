@@ -20,7 +20,9 @@ const Menu = () => {
                     </a>
                 </ul>
                 
-                <button>Baixar RubBank</button>
+                <button className='button'>Baixar RubBank</button>
+
+                <button className='button-hide'>Baixar App</button>
             </div>
 
            

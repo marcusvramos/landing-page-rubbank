@@ -9,12 +9,14 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 100%;
+    width: 90%;
+    
     font-size: 24px;
     margin-top: 50px;
+    margin-left: 30px;
     margin-bottom: 50px;
     padding: 20px;
-    padding-left: 0px;
+    padding-left: 10px;
     box-sizing: border-box; /* trick para ajustar o tamanho dos itens que vazam da tela */
 }
 
@@ -28,6 +30,8 @@
     .campo-texto input{
         font-size: 18px;
         margin: 0px;
+        text-align: center;
+        
     }
 
 
@@ -45,8 +49,47 @@
     .campo-texto input{
         font-size: 18px;
         margin: 0px;
+        text-align: center;
+        margin-left: 25px;
+        
     }
 }
+
+@media (min-width: 601px) and (max-width: 768px){
+    .campo-texto {
+        margin: 0px;
+        padding: 50px 0px;
+        font-size: 18px;
+        
+    }
+
+    .campo-texto input{
+        font-size: 18px;
+        margin: 0px;
+        margin-left: 30px;
+        width: 80%;
+        
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .campo-texto {
+        margin: 0px;
+        padding: 50px 0px;
+        
+    }
+
+    .campo-texto input{
+        margin-right: 70px;
+        padding: 0px;
+        font-size: 18px;
+        margin: 0px;
+        width: 110%;
+        
+    }
+}
+
 
 
 

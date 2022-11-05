@@ -9,7 +9,7 @@
 
 .text2{
     padding: 0 0 60px 0;
-    margin-left:120px;
+    padding-left:120px;
     
 }
 
@@ -57,6 +57,7 @@ h2{
     flex-wrap: wrap;
     font-weight: bold;
     color:#323070;
+    padding-bottom: 10px;
 }
 
 .p-cards {
@@ -82,7 +83,7 @@ display:flex;
 margin:20px 60px;
 }
 
-@media (max-width: 450px){
+@media (max-width: 300px){
     .container-escolha{
         margin: 0px;
         padding: 30px;
@@ -93,6 +94,77 @@ margin:20px 60px;
         flex-direction: column;
         align-items: center;
         margin: 0px;
+        padding: 0px;
+    }
+
+    h2{
+        margin: 0px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+         font-weight: bold;
+    }
+
+    .text2 p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texto-descritivo{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size:16px;
+    }
+
+    .p-introducao{
+        padding: 25px 0 30px 0;
+        width:80%;
+        font-size:16px;
+        text-align: center;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cards-container img{
+        width: 30%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-cards{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .title{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 301px) and (max-width: 450px){
+    .container-escolha{
+        margin: 0px;
+        padding: 30px;
+    }
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
     }
 
     h2{
@@ -146,6 +218,7 @@ margin:20px 60px;
     
     .title{
         font-size: 18px;
+        padding-bottom: 10px;
     }
 
 
@@ -162,6 +235,7 @@ margin:20px 60px;
         flex-direction: column;
         align-items: center;
         margin: 0px;
+        padding: 0px;
     }
 
     h2{
@@ -215,6 +289,7 @@ margin:20px 60px;
     
     .title{
         font-size: 18px;
+        padding-bottom: 10px;
     }
 
 }
@@ -223,6 +298,7 @@ margin:20px 60px;
     .container-escolha{
         padding: 0px;
         align-items: flex-start;
+        padding-left: 40px;
     }
 
    
@@ -232,6 +308,13 @@ margin:20px 60px;
         font-size: 26px;
         font-weight: bolder;
     }
+
+    .text2 {
+        margin: 0px;
+        padding: 40px;
+        
+    }
+
 
     .text2 p{
         margin: 0px;
@@ -246,8 +329,185 @@ margin:20px 60px;
         flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
-        padding: 0px;
+        padding: 40px;
         box-sizing: border-box;
 
     }
+
+    .cards-container span{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .cards{
+        padding-right: 20px;
+    }
+
+    .cards img{
+        width: 50%;
+    }
+
+    .p-cards{
+        font-size: 16px;
+    }
+
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .container-escolha{
+        display: flex;
+        flex-direction: column;
+        background-color: #6b79e52c;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height:auto;
+    }
+    
+    .text2{
+        padding: 0 0 60px 0;
+        padding-left: 80px;
+        
+    }
+    
+    h2{
+        padding: 40px 0 50px 0;
+        color: #323070;
+        font-size: 28px;
+    }
+    
+    .text2 p {
+        width:45%;
+    }
+    
+    .cards-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        padding-bottom: 60px;
+        
+    }
+    
+    .cards{
+    
+        width: 25%;
+        text-align:left;
+    }
+    
+    .cards img{
+        width: 25%;
+    }
+    
+    .texto-descritivo {
+        font-size: 22px;
+    }
+    
+    .title{
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bold;
+        color:#323070;
+        padding-bottom: 10px;
+    }
+    
+    .p-cards {
+        width:90%;
+        font-size: 18px;
+    }
+    
+    .cards img{
+        width: 50%; 
+    }
+    
+    
+    .articles-container{
+        background-color:#FFF;
+        height:800px;
+    }
+    
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    .container-escolha{
+        display: flex;
+        flex-direction: column;
+        background-color: #6b79e52c;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height:auto;
+    }
+    
+    .text2{
+        padding: 0 0 60px 0;
+        padding-left: 80px;
+        
+    }
+    
+    h2{
+        padding: 40px 0 50px 0;
+        color: #323070;
+        font-size: 32px;
+    }
+    
+    .text2 p {
+        font-size: 24px;
+        width:70%;
+    }
+    
+    .cards-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        padding-bottom: 60px;
+        
+    }
+    
+    .cards{
+    
+        width: 25%;
+        text-align:left;
+    }
+    
+    .cards img{
+        width: 25%;
+    }
+    
+    .texto-descritivo {
+        font-size: 22px;
+    }
+    
+    .title{
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bold;
+        color:#323070;
+        padding-bottom: 10px;
+    }
+    
+    .p-cards {
+        width:90%;
+        font-size: 18px;
+    }
+    
+    .cards img{
+        width: 50%; 
+    }
+    
+    
+    .articles-container{
+        background-color:#FFF;
+        height:800px;
+    }
+    
 }
