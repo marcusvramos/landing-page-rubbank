@@ -89,7 +89,7 @@
 }
 
 
-@media (max-width: 430px){
+@media (max-width: 450px){
 
     .imagem-logo{
         display: none;
@@ -103,6 +103,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 30px;
     }
 
     .segundo-titulo{
@@ -112,10 +113,14 @@
 
     .segundo-titulo-hidden{
         box-sizing: border-box;
-        font-size: 24px;
-        padding: 20px;
+        font-size: 22px;
+        padding: 30px;
         font-weight: bold;
         display: block;
+    }
+
+    .formulario form{
+        padding: 20px;
     }
 
     #form{
@@ -163,4 +168,85 @@
         display: block;
     }
 
+}
+
+
+@media (min-width: 451px) and (max-width: 600px){
+    
+    .imagem-logo{
+        display: none;
+    }
+
+    .imagem-email{
+        display: none;
+    }
+
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .segundo-titulo{
+        display: none;
+    }
+
+
+    .segundo-titulo-hidden{
+        box-sizing: border-box;
+        font-size: 22px;
+        padding: 30px;
+        font-weight: bold;
+        display: block;
+    }
+
+    .formulario form{
+        padding: 20px;
+    }
+
+    #form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .formulario{
+        width: 90%;
+ 
+    }
+
+    .formulario p{
+        font-size: 16px;
+    }
+
+    .container-botao{
+        width: 100%;
+    }
+
+    .botao-form-hidden{
+        background-color: #6278f7;
+        border-radius: 30px;
+        border: none;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 25px;
+        color: #FFF;
+        cursor: pointer;
+        transition: 0.5s;
+        display: block;
+        width: 60%;
+        padding: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .botao-form{
+        display: none; 
+    }
+
+    .img-form-hidden{
+        display: block;
+    }
 }

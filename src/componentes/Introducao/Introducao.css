@@ -2,6 +2,7 @@
     display:flex;
     background-color:#FFF;
     margin-top: 100px;
+    width: 100%;
 }
 
 .img-introduction{
@@ -49,24 +50,45 @@ h1{
     margin: 0 auto;
 }
 
-@media (max-width: 430px){
+.img-introduction-hidden{
+    display: none;
+}
+
+.img-introduction-hidden2{
+    display: none;
+}
+
+@media (max-width: 450px){
 
     .introduction-container {
         margin: 0px;
-        background-image: url('../../assets/bg-cel320.svg');
-        background-repeat: no-repeat;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        background-color:#FFF;
+        flex-direction: column-reverse;
+        background-color:transparent;
         margin-top: 100px;
+    }
+    
+    .img-introduction-hidden{
+        background-image: url('../../assets/bg-cel320.svg');
+        display:flex;
+        background-position: right;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .img-introduction-hidden img{
+        padding-top: 20px;
+        
     }
 
     .text{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 40px;
         margin: 0px;
         width: 100%;
     }
@@ -75,20 +97,16 @@ h1{
         display: none;
     }
 
-    #celulares{
-        width: 95%;
-    }
-
     h1{
         width: 100%;
-        font-size: 26px;
+        font-size: 20px;
         text-align: center;
         font-weight: bold;
     }
 
     .text p{
         width:100%;
-        font-size:20px;
+        font-size:16px;
         text-align: center;
     }
     
@@ -106,13 +124,128 @@ h1{
 
     }
 
-
-
+    .img-introduction-hidden2{
+        display: none;
+    }
 
 }
 
+@media (min-width: 451px) and (max-width: 600px){
+    
+    .introduction-container {
+        margin: 0px;
+        flex-direction: column-reverse;
+        background-color:#FFF;
+        margin-top: 100px;
+    }
+    
+    .img-introduction-hidden2{
+        padding-top: 30px;
+        background-image: url('../../assets/bg-cel320.svg');
+        display:flex;
+        background-position: right;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
 
+    }
 
+    .img-introduction-hidden img{
+        padding-top: 20px;
+        
+    }
 
+    .text{
+        display: flex;
+        background-color: transparent;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        margin: 0px;
+        width: 100%;
+    }
 
+    .img-introduction{
+        display: none;
+    }
 
+    h1{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .text p{
+        width:100%;
+        font-size:16px;
+        text-align: center;
+    }
+    
+
+    .container button{
+        width: 100%;
+        padding: 20px 58px;
+        font-size: 18px;
+    }
+
+    .botao-intro{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px){
+    .introduction-container {
+        margin: 0px;
+        display: flex;
+        background-color:#FFF;
+        margin-top: 100px;
+        
+    }
+
+    .img-introduction{
+        background-image: url('./bgIntro.svg');
+        display:flex;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .text{
+        margin: 0px;
+        padding: 30px;
+        width: 50%;
+    }
+    
+    .text h1{
+
+        font-size:28px;
+    }
+
+    .text p{
+        font-size: 20px;
+    }
+
+    #celulares{
+        width: 80%;
+    }
+
+    .container button{
+        width: 100%;
+        padding: 20px 58px;
+        font-size: 18px;
+    }
+
+    .botao-intro{
+        display: flex;
+        align-items: center;
+
+    }
+}
