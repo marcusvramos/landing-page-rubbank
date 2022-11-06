@@ -1,0 +1,342 @@
+.swiper{
+    display: none;
+    padding-bottom: 40px;
+}
+
+.container-slider{
+    background-color:#6b79e52c;
+}
+
+.container-slider h2{
+    padding-bottom: 20px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #323070;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #323070;
+}
+
+.swiper-pagination{
+    padding-bottom: 0px;
+}
+
+@media (max-width: 300px){
+
+    .swiper{
+        display: block;
+    }
+
+    .container-slider{
+        display: block;
+    }
+
+    .swiper-button-next::after, .swiper-button-prev::after{
+        font-size: 28px;
+    }
+
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2{
+        margin: 0px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+         font-weight: bold;
+    }
+
+    .text2 p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texto-descritivo{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size:16px;
+    }
+
+    .p-introducao{
+        padding: 25px 0 30px 0;
+        width:80%;
+        font-size:16px;
+        text-align: center;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cards img {
+        width: 60%;
+    }
+
+    .cards{
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-cards{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .title{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 301px) and (max-width: 450px){
+    .swiper{
+        display: block;
+        padding-top: 0px;
+    }
+
+    .container-slider{
+        display: block;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 28px;
+    }
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2{
+        margin: 0px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+         font-weight: bold;
+    }
+
+    .text2 p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texto-descritivo{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size:16px;
+    }
+
+    .p-introducao{
+        padding: 25px 0 30px 0;
+        width:80%;
+        font-size:16px;
+        text-align: center;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cards img{
+        width: 35%;
+    }
+
+
+    .cards{
+        padding: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-cards{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .title{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 600px){
+    .swiper{
+        display: block;
+        padding-top: 0px;
+    }
+
+    .container-slider{
+        display: block;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 35px;
+    }
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2{
+        margin: 0px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+         font-weight: bold;
+    }
+
+    .text2 p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texto-descritivo{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size:18px;
+    }
+
+    .p-introducao{
+        padding: 25px 0 30px 0;
+        width:80%;
+        font-size:18px;
+        text-align: center;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cards img{
+        width: 25%;
+    }
+
+
+    .cards{
+        padding: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-cards{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .title{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px){
+    .swiper{
+        display: block;
+        padding: 40px;
+        padding-top: 0px;
+    }
+
+    .container-slider{
+        display: block;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 35px;
+    }
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2{
+        margin: 0px;
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .text2 p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto-descritivo{
+        padding: 0px 80px;
+        font-size: 20px;
+    }
+
+    .p-introducao{
+        padding: 25px 0 30px 0;
+        width:80%;
+        font-size:18px;
+        text-align: center;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cards img{
+        width: 30%;
+    }
+
+
+    .cards{
+        padding: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-cards{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .title{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    
+}

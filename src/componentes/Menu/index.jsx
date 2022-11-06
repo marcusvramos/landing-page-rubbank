@@ -7,7 +7,7 @@ const Menu = () => {
     return (
         <nav className='menu formatacao'>
             <div>
-                <a href="#App"><img src="logo-rub.svg" alt="Logo RubBank" /></a>
+                <a href="#home"><img src="logo-rub.svg" alt="Logo RubBank" /></a>
             </div>
 
             <div className='list'>

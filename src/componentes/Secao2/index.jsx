@@ -4,6 +4,7 @@ import icon02 from "../../assets/caract02.svg"
 import icon03 from "../../assets/caract03.svg"
 import icon04 from "../../assets/caract04.svg"
 
+
 const Secao2 = () => {
 
     const data = new Date();
@@ -13,7 +14,7 @@ const Secao2 = () => {
         <div className="container-escolha" id="sobre-nos">
             <div className="text2">    
                 <h2>Porque Escolher o RubBank?</h2>
-                <p className='texto-descritivo'>O Banco Digital desenvolvido por Pessoas para Pessoas... Sabemos de suas necessidades e criamos o RubBank para soluciona-las!</p>
+                <p className='texto-descritivo'>O Banco Digital desenvolvido por Pessoas para Pessoas... Sabemos de suas necessidades e criamos o RubBank para solucioná-las!</p>
             </div>
             <div className="cards-container">
                 <div className="cards">
@@ -46,6 +47,8 @@ const Secao2 = () => {
 
         </div>
 
+
+        
     )
 
 }

@@ -1,0 +1,13 @@
+:root{
+    --swiper-theme-color: #323070;
+}
+
+.swiper{
+    padding: 32px
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
