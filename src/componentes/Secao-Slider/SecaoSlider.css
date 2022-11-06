@@ -48,6 +48,8 @@
 
     h2{
         margin: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
         width: 100%;
         font-size: 20px;
         text-align: center;
@@ -126,6 +128,8 @@
     }
 
     h2{
+        padding-left: 30px;
+        padding-right: 30px;
         margin: 0px;
         width: 100%;
         font-size: 20px;
@@ -205,11 +209,13 @@
     }
 
     h2{
+        padding-left: 30px;
+        padding-right: 30px;
         margin: 0px;
         width: 100%;
         font-size: 20px;
         text-align: center;
-         font-weight: bold;
+        font-weight: bold;
     }
 
     .text2 p{
@@ -285,6 +291,8 @@
     }
 
     h2{
+        padding-left: 30px;
+        padding-right: 30px;
         margin: 0px;
         width: 100%;
         font-size: 26px;
