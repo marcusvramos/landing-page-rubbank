@@ -27,7 +27,7 @@ const Formulario = (props) => {
                     required={true} 
                     placeholder="Digite seu Nome"
                     type="text"
-                    name="name"
+                    name="first-name"
                     
                     />
 
@@ -35,7 +35,7 @@ const Formulario = (props) => {
                     required={true} 
                     placeholder="Digite seu Email"
                     type="email"
-                    name="email"
+                    name="userEmail"
                     />
 
                     <p>O Banco Digital perfeito para você!</p>
