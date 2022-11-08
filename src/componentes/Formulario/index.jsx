@@ -53,10 +53,10 @@ const Formulario = (props) => {
                     <p>O Banco Digital perfeito para você!</p>
 
                     <div className='container-botao'>
-                        <button type='submit' className='botao-form-hidden'>
+                        <button type='submit' onClick="submit" className='botao-form-hidden'>
                             Enviar
                         </button>
-                        <button type='submit' className='botao-form'>
+                        <button type='submit' onClick="submit" className='botao-form'>
                             Enviar Formulário
                         </button>
                     </div>
