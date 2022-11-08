@@ -19,7 +19,7 @@ const Formulario = (props) => {
                     onSubmit="submit" 
                     name="contact" 
                     method="POST" 
-                    data-netlify="true"> 
+                    netlify> 
                         <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
             
                         <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
