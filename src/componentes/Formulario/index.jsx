@@ -2,9 +2,13 @@ import image_form from '../../assets/form-image.svg'
 import logo_form from '../../assets/logo-form.svg'
 import './Formulario.css'
 import logo2 from '../../assets/rublogo-form.svg'
+import Popup from '../Popup.jsx/'
 
+import { useState } from 'react'
 
 const Formulario = (props) => {
+
+    const [buttonPopup, setButtonPopup] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -12,7 +16,7 @@ const Formulario = (props) => {
         const myForm = event.target;
         const formData = new FormData(myForm);
         
-        fetch("/#home", {
+        fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData).toString(),
@@ -42,14 +46,14 @@ const Formulario = (props) => {
 
                         <div className="campo-texto formatacao">
                             <label>
-                                <input placeholder="Digite seu Nome" required="true" type="text" id="name" name="name"/>
+                                <input placeholder="Digite seu Nome" required={true} type="text" id="name" name="name"/>
                             </label>
                         </div>
             
             
                         <div className="campo-texto formatacao">
                             <label>
-                                <input placeholder="Digite seu Email" required="true" type="email" name="email" id="email"/>
+                                <input placeholder="Digite seu Email" required={true} type="email" name="email" id="email"/>
                             </label>
                         </div>
             
@@ -59,12 +63,17 @@ const Formulario = (props) => {
                             <button type="submit" className='botao-form-hidden'>
                                 Enviar
                             </button>
-                            <button type="submit" className='botao-form'>
+                            <button type="submit" onSubmit={() => setButtonPopup(true)} className='botao-form'>
                                 Enviar Formulário
                             </button>
                         </div>
                     </form>
             </section>
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <h3>Formulário Enviado com Sucesso!</h3>
+                <p>Agradecemos pelo contato e estaremos sempre te mantendo antenado nas novidades do Rubbank</p>
+            </Popup>
+
         </div>
         
     )
