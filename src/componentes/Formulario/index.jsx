@@ -11,13 +11,13 @@ const Formulario = (props) => {
     const [nome, setNome] = useState('') // hook (gancho) -- valor atual, e o novo valor a ser SETADO
     const [email, setEmail] = useState('')
 
-    const aoSalvar = (evento) => {
+    /*const aoSalvar = (evento) => {
         evento.preventDefault() // previnir o comportamento padrão do navegador -- 'Submete e Atualiza'
         props.aoUsuarioCadastrado({
             nome,
             email
         })
-    }
+    }*/
 
     return (
         <div className='container-form' id="form-contato">
