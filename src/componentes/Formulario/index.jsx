@@ -21,7 +21,7 @@ const Formulario = (props) => {
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData).toString(),
         })
-          .then(() => console.log("Form successfully submitted"))
+          .then(() => setButtonPopup(true))
           .catch((error) => alert(error));
     };
 
@@ -60,10 +60,10 @@ const Formulario = (props) => {
             
                         <p>O Banco Digital perfeito para você!</p>
                         <div className='container-botao'>
-                            <button type="submit" className='botao-form-hidden' onClick={() => setButtonPopup(true)}>
+                            <button type="submit" className='botao-form-hidden'>
                                 Enviar
                             </button>
-                            <button type="submit"  className='botao-form' onClick={() => setButtonPopup(true)}>
+                            <button type="submit"  className='botao-form'>
                                 Enviar Formulário
                             </button>
                         </div>
