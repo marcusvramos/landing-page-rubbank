@@ -24,7 +24,7 @@ const Formulario = (props) => {
         const myForm = event.target;
         const formData = new FormData(myForm);
 
-        setform({
+        setValue({
             name: '',
             email: '',
         })
