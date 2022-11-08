@@ -24,7 +24,7 @@ const Formulario = (props) => {
             
                         <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             
-                        <input type="hidden" name="contact" value="contact" />
+                        <input type="hidden" name="form-name" value="contact" />
 
                         <div className="campo-texto formatacao">
                             <label></label>
