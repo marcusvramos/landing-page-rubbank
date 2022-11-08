@@ -6,12 +6,13 @@ import logo2 from '../../assets/rublogo-form.svg'
 
 const Formulario = (props) => {
 
-    const handleSubmit = (event) => {
+    /*const handleSubmit = (event) => {
         event.preventDefault();
       
         const myForm = event.target;
         const formData = new FormData(myForm);
-        
+        console.log(formData);
+        console.log(new URLSearchParams(formData).toString());
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -19,7 +20,7 @@ const Formulario = (props) => {
         })
           .then(() => console.log("Form successfully submitted"))
           .catch((error) => alert(error));
-    };
+    };*/
 
     return (
         <div className='container-form' id="form-contato">
@@ -29,12 +30,19 @@ const Formulario = (props) => {
             </div>
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
+            
+                    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+                        <input type="text" name="name" />
+                        <input type="email" name="email" />
+                        <textarea name="message"></textarea>
+                    </form>
+                    
+                    
                     <form id="form" 
-                    onSubmit={handleSubmit} 
                     name="contact" 
                     method="POST" 
-
                     netlify> 
+
                         <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
             
                         <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
