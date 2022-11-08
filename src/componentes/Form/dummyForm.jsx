@@ -8,7 +8,7 @@ const Form = () => {
             name="contact" 
             method="POST" 
             data-netlify="true"
-            action="../../../success.js"> 
+            action="./success.js"> 
             
                 <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
     
