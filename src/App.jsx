@@ -9,8 +9,8 @@ import Formulario from './componentes/Formulario';
 
 function App() {
   fetch(process.env.REACT_APP_API_URL || 'http://localhost:3000')
-    .then( () => console.log('DEU CERTO')) 
-    .catch( () => console.log('DEU ERRO'))
+    .then( () => console.log('Acessou Certo!')) 
+    .catch( () => console.log('Acessou Errado!'))
 
 
   // <Formulario />
