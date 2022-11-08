@@ -34,7 +34,7 @@ const Formulario = (props) => {
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
                     <form id="form" 
-                    onSubmit={[handleSubmit, () => setButtonPopup(true)]}  
+                    onSubmit={handleSubmit}  
                     name="contact" 
                     method="post" > 
                         <input type="hidden" name="form-name" value="contact" />
@@ -60,10 +60,10 @@ const Formulario = (props) => {
             
                         <p>O Banco Digital perfeito para você!</p>
                         <div className='container-botao'>
-                            <button type="submit" className='botao-form-hidden'>
+                            <button type="submit" className='botao-form-hidden' onClick={() => setButtonPopup(true)}>
                                 Enviar
                             </button>
-                            <button type="submit"  className='botao-form'>
+                            <button type="submit"  className='botao-form' onClick={() => setButtonPopup(true)}>
                                 Enviar Formulário
                             </button>
                         </div>
