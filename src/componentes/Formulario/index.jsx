@@ -1,7 +1,7 @@
 import image_form from '../../assets/form-image.svg'
 import logo_form from '../../assets/logo-form.svg'
 import './Formulario.css'
-
+import logo2 from '../../assets/logo2.svg'
 
 
 const Formulario = (props) => {
