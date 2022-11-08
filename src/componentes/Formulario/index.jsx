@@ -33,7 +33,7 @@ const Formulario = (props) => {
                     onSubmit={handleSubmit} 
                     name="contact" 
                     method="POST" 
-                    action="/path"
+                    action="/#home"
                     netlify> 
                         <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
             
