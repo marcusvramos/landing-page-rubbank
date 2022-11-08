@@ -11,6 +11,7 @@ const Formulario = (props) => {
       
         const myForm = event.target;
         const formData = new FormData(myForm);
+        const body = new URLSearchParams(formData).toString()
         
         fetch("/", {
           method: "POST",
