@@ -7,7 +7,8 @@ const Form = () => {
             onSubmit="submit" 
             name="contact" 
             method="POST" 
-            data-netlify="true"> 
+            data-netlify="true"
+            action="../../../success.js"> 
             
                 <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
     
