@@ -6,6 +6,21 @@ import logo2 from '../../assets/rublogo-form.svg'
 
 const Formulario = (props) => {
 
+    const handleSubmit = (event) => {
+        event.preventDefault();
+      
+        const myForm = event.target;
+        const formData = new FormData(myForm);
+        
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(formData).toString(),
+        })
+          .then(() => console.log("Form successfully submitted"))
+          .catch((error) => alert(error));
+    };
+
     return (
         <div className='container-form' id="form-contato">
             <div className='imagens-form'>
@@ -15,7 +30,7 @@ const Formulario = (props) => {
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
                     <form id="form" 
-                    onSubmit="submit" 
+                    onSubmit={handleSubmit} 
                     name="contact" 
                     method="POST" 
                     netlify> 
