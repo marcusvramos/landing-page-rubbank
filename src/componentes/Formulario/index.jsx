@@ -18,7 +18,7 @@ const Formulario = (props) => {
           body: new URLSearchParams(formData).toString(),
         })
           .then( r => {
-            return r.json()
+            return body
           })
 
           .catch((error) => alert(error));
