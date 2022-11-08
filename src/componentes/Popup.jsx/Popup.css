@@ -57,3 +57,15 @@
     top: 16px;
     right: 16px;
 }
+
+@media (max-width: 300px){
+
+}
+
+@media (min-width: 301px) and (max-width: 450px){
+
+}
+
+@media (min-width: 451px) and (max-width: 600px){
+
+}
