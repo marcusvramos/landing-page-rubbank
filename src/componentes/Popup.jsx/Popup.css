@@ -13,11 +13,45 @@
 }
 
 .popup-inner {
+    border-radius: 20px;
     position: relative;
-    padding: 32px;
+    padding: 2%;
     width: 100%;
     max-width: 640px;
     background-color: white;
+}
+
+.popup-inner h3{
+    color: #323070;
+    padding-bottom: 15px;
+    font-size: 25px;
+    padding-left: 8px;
+}
+
+.popup-inner button {
+    
+    background-color: transparent;
+    border: none;
+    width: 10%;
+    padding: 16px;
+    height: 10%;
+}
+
+.popup-inner button img{
+    width: 70%;
+    
+}
+
+.logo-popup{
+    padding-bottom: 15px;
+}
+
+
+
+.popup-inner p{
+    font-size: 20px;
+    padding-left: 8px;
+    padding-bottom: 20px;
 }
 
 .popup-inner .close-btn{

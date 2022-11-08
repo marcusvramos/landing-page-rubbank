@@ -71,7 +71,7 @@ const Formulario = (props) => {
             </section>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
                 <h3>Formulário Enviado com Sucesso!</h3>
-                <p>Agradecemos pelo contato e estaremos sempre te mantendo antenado nas novidades do Rubbank</p>
+                <p>Agradecemos pelo contato! Estaremos sempre te mantendo antenado sobre as novidades do Rubbank!</p>
             </Popup>
 
         </div>
