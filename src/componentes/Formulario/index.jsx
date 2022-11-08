@@ -26,14 +26,16 @@ const Formulario = (props) => {
                         <input type="hidden" name="form-name" value="contact" />
 
                         <div className="campo-texto formatacao">
-                            <label></label>
-                            <input placeholder="Digite seu Nome" required="true" type="text" name="name"/>
+                            <label>
+                                <input placeholder="Digite seu Nome" required="true" type="text" name="name"/>
+                            </label>
                         </div>
             
             
                         <div className="campo-texto formatacao">
-                            <label></label>
-                            <input placeholder="Digite seu Email" required="true" type="email" name="email"/>
+                            <label>
+                                <input placeholder="Digite seu Email" required="true" type="email" name="email"/>
+                            </label>
                         </div>
             
             
