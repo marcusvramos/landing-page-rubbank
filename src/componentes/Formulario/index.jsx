@@ -1,8 +1,8 @@
-import CampoTexto from '../CampoTexto'
+
 import './Formulario.css'
 import image_form from '../../assets/form-image.svg'
 import logo_form from '../../assets/logo-form.svg'
-import logo2 from '../../assets/rublogo-form.svg'
+
 
 
 const Formulario = (props) => {
