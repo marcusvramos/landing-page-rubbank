@@ -6,7 +6,25 @@ import './Formulario.css'
 
 
 const Formulario = (props) => {
-
+    
+    const handleSubmit = (event) => {
+        event.preventDefault();
+      
+        const myForm = event.target;
+        const formData = new FormData(myForm);
+        
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(formData).toString(),
+        })
+          .then(() => console.log("Form successfully submitted"))
+          .catch((error) => alert(error));
+      };
+      
+      document
+        .querySelector("form")
+        .addEventListener("submit", handleSubmit);
 
 
 
@@ -18,8 +36,7 @@ const Formulario = (props) => {
             </div>
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
-                <form id="form" name="contact" method='POST'
-                     netlify> 
+                <form id="form" name="contact"> 
                     <img src={logo2} alt="logo RubBank" className='img-form-hidden' />
 
                     <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
