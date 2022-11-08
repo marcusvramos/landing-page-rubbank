@@ -8,9 +8,12 @@ import SecaoSlider from './componentes/Secao-Slider';
 
 
 function App() {
-  
-  const [usuarios, setUsuarios] = useState([])
+  fetch(process.env.REACT_APP_API_URL || 'http://localhost:3000')
+    .then( () => console.log('DEU CERTO')) 
+    .catch( () => console.log('DEU ERRO'))
 
+
+  const [usuarios, setUsuarios] = useState([])
   const novoUsuarioAdicionado = (usuario) => {
     console.log(usuario)
     setUsuarios([...usuarios, usuario]) 

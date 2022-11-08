@@ -24,8 +24,6 @@ const Formulario = (props) => {
 
                     <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
 
-                    <input type="hidden" name="form-name" value="contact"></input>
-
                     <div className="campo-texto formatacao">
                         <label></label>
                         <input placeholder="Digite seu Nome" required="true" type="text" />
@@ -43,7 +41,7 @@ const Formulario = (props) => {
                         <button type="submit" className='botao-form-hidden'>
                             Enviar
                         </button>
-                        <button type="submit" className='botao-form'>
+                        <button className='botao-form'>
                             Enviar Formulário
                         </button>
                     </div>
