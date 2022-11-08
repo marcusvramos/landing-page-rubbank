@@ -1,7 +1,6 @@
-import './Formulario.css'
 import image_form from '../../assets/form-image.svg'
 import logo_form from '../../assets/logo-form.svg'
-import Form from '../Form/dummyForm'
+import './Formulario.css'
 
 
 
