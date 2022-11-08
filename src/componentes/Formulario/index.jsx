@@ -11,17 +11,13 @@ const Formulario = (props) => {
       
         const myForm = event.target;
         const formData = new FormData(myForm);
-        const body = new URLSearchParams(formData).toString()
         
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData).toString(),
         })
-          .then( r => {
-            return body
-          })
-
+          .then(() => console.log("Form successfully submitted"))
           .catch((error) => alert(error));
     };
 
@@ -37,6 +33,7 @@ const Formulario = (props) => {
                     onSubmit={handleSubmit} 
                     name="contact" 
                     method="POST" 
+
                     netlify> 
                         <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
             
