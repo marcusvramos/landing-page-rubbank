@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import Formulario from './componentes/Formulario';
+
 import Menu from './componentes/Menu';
 import Introducao from './componentes/Introducao';
 import Secao2 from './componentes/Secao2';
@@ -13,12 +12,6 @@ function App() {
     .then( () => console.log('DEU CERTO')) 
     .catch( () => console.log('DEU ERRO'))
 
-
-  const [usuarios, setUsuarios] = useState([])
-  const novoUsuarioAdicionado = (usuario) => {
-    console.log(usuario)
-    setUsuarios([...usuarios, usuario]) 
-  }
 
   // <Formulario />
 
