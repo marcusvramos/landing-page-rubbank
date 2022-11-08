@@ -27,9 +27,9 @@ const Formulario = (props) => {
             </div>
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
-                <form id="form" 
-                    onSubmit={aoSalvar}> 
-                    <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
+                <form id="form" name="contact"
+                    onSubmit={aoSalvar} netlify> 
+                    <img src={logo2} alt="logo RubBank" className='img-form-hidden' />
 
                     <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
                     <CampoTexto 
@@ -49,10 +49,10 @@ const Formulario = (props) => {
                     <p>O Banco Digital perfeito para você!</p>
 
                     <div className='container-botao'>
-                        <button className='botao-form-hidden'>
+                        <button type='submit' className='botao-form-hidden'>
                             Enviar
                         </button>
-                        <button className='botao-form'>
+                        <button type='submit' className='botao-form'>
                             Enviar Formulário
                         </button>
                     </div>
