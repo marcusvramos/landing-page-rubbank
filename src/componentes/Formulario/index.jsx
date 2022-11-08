@@ -27,13 +27,20 @@ const Formulario = (props) => {
             </div>
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
-                <form id="form" 
-                    onSubmit={aoSalvar}> 
+                <form 
+                    name="contato v1"
+                    method="post"
+                    data-netlify="true"
+                    id="form" 
+                    onSubmit="submit"> 
                     <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
+
+                    <input type="hidden" name="form-name" value="contato v1"/>
 
                     <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
                     <CampoTexto 
                     required={true} 
+                    name="nome"
                     placeholder="Digite seu Nome"
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}
@@ -41,6 +48,7 @@ const Formulario = (props) => {
 
                     <CampoTexto 
                     required={true} 
+                    name="email"
                     placeholder="Digite seu Email"
                     valor={email}
                     aoAlterado={valor => setEmail(valor)}
@@ -48,11 +56,11 @@ const Formulario = (props) => {
 
                     <p>O Banco Digital perfeito para você!</p>
 
-                    <div className='container-botao'>
+                    <div type="submit" className='container-botao'>
                         <button className='botao-form-hidden'>
                             Enviar
                         </button>
-                        <button className='botao-form'>
+                        <button type="submit" className='botao-form'>
                             Enviar Formulário
                         </button>
                     </div>
