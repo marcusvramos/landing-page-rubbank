@@ -4,7 +4,7 @@ import Introducao from './componentes/Introducao';
 import Secao2 from './componentes/Secao2';
 import Rodape from './componentes/Rodape';
 import SecaoSlider from './componentes/Secao-Slider';
-import Form from './componentes/Form/Form';
+import Formulario from './componentes/Formulario';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <Introducao />
       <Secao2 />
       <SecaoSlider />   
-      <Form />   
+      <Formulario />   
       <Rodape />
     </div>
   );

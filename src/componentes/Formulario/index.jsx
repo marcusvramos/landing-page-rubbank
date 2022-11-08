@@ -32,24 +32,24 @@ const Formulario = (props) => {
                     <form id="form" 
                     onSubmit={handleSubmit} 
                     name="contact" 
-                    method="POST" 
-                    action="/#home"> 
+                    method="post" > 
+                        <input type="hidden" name="form-name" value="contact" />
                         <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
             
                         <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             
-                        <input type="hidden" name="form-name" value="contact" />
+                        
 
                         <div className="campo-texto formatacao">
                             <label>
-                                <input placeholder="Digite seu Nome" required="true" type="text" name="name"/>
+                                <input placeholder="Digite seu Nome" required="true" type="text" id="name" name="name"/>
                             </label>
                         </div>
             
             
                         <div className="campo-texto formatacao">
                             <label>
-                                <input placeholder="Digite seu Email" required="true" type="email" name="email"/>
+                                <input placeholder="Digite seu Email" required="true" type="email" name="email" id="email"/>
                             </label>
                         </div>
             
