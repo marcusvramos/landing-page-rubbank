@@ -5,16 +5,29 @@ import logo2 from '../../assets/rublogo-form.svg'
 import Popup from '../Popup.jsx/'
 
 import { useState } from 'react'
+import userEvent from '@testing-library/user-event'
 
 const Formulario = (props) => {
 
     const [buttonPopup, setButtonPopup] = useState(false);
 
+    const [value, setValue] = useState({
+        name: '',
+        email: '',
+    })
+
+    const valueInput = e => setValue({ ...userEvent, [e.target.value]: e.target.value})
+
     const handleSubmit = (event) => {
         event.preventDefault();
-      
+        
         const myForm = event.target;
         const formData = new FormData(myForm);
+
+        setform({
+            name: '',
+            email: '',
+        })
         
         fetch("/", {
           method: "POST",
@@ -46,14 +59,14 @@ const Formulario = (props) => {
 
                         <div className="campo-texto formatacao">
                             <label>
-                                <input placeholder="Digite seu Nome" required={true} type="text" id="name" name="name"/>
+                                <input placeholder="Digite seu Nome" onChange={valueInput} required={true} value={value.name} type="text" id="name" name="name"/>
                             </label>
                         </div>
             
             
                         <div className="campo-texto formatacao">
                             <label>
-                                <input placeholder="Digite seu Email" required={true} type="email" name="email" id="email"/>
+                                <input placeholder="Digite seu Email" onChange={valueInput} required={true} value={value.email} type="email" name="email" id="email"/>
                             </label>
                         </div>
             
