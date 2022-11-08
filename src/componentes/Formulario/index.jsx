@@ -26,7 +26,6 @@ const Formulario = (props) => {
                     <CampoTexto 
                     required={true} 
                     placeholder="Digite seu Nome"
-                    valor={nome}
                     type="text"
                     name="name"
                     
@@ -35,7 +34,6 @@ const Formulario = (props) => {
                     <CampoTexto 
                     required={true} 
                     placeholder="Digite seu Email"
-                    valor={email}
                     type="email"
                     name="email"
                     />
