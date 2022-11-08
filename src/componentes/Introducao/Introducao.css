@@ -278,7 +278,6 @@ h1{
         margin: 0px;
         display: flex;
         background-color:#FFF;
-
         padding-left: 50px;
         
     }
@@ -332,7 +331,7 @@ h1{
         background-color:#FFF;
         width: 100%;
 
-        padding: 0px;
+        padding-top: 100px;
     }
     
     .img-introduction{
@@ -404,7 +403,7 @@ h1{
         background-color:#FFF;
         width: 100%;
 
-        padding: 0px;
+        padding-top: 100px;
         margin-bottom: 50px;
     }
     
