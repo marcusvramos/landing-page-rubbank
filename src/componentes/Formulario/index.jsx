@@ -16,45 +16,27 @@ const Formulario = (props) => {
             </div>
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
-                <form 
-                    name="contact" method="POST" data-netlify="true"
-                    id="form" 
-                    onSubmit="submit" > 
+            <form name="contact" method="POST" data-netlify="true">
 
-                    <img src={logo2} alt="logo RubBank" className='img-form-hidden'/>
-
-                    <input type="hidden" name="form-name" value="contact"/>
-
-                    <h2 className='segundo-titulo'>Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
-
-                    <CampoTexto 
-                    type="text"
-                    required={true} 
-                    name="first-name"
-                    placeholder="Digite seu Nome"
-                    
-                    
-                    />
-
-                    <CampoTexto 
-                    type="email"
-                    required={true} 
-                    name="email"
-                    placeholder="Digite seu Email"
-
-                    
-                    />
-
-                    <p>O Banco Digital perfeito para você!</p>
-
-                    
-                    <button className='botao-form-hidden' type="submit">
-                        Enviar
-                    </button>
-                    <button type="submit" className='botao-form'>
-                        Enviar Formulário
-                    </button>
-                    
+            <input type="hidden" name="form-name" value="contact">
+                    <p>
+                        <label>Your Name: <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                        </select></label>
+                    </p>
+                    <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
                 </form>
             </section>
         </div>
