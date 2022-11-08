@@ -5,6 +5,7 @@ import Introducao from './componentes/Introducao';
 import Secao2 from './componentes/Secao2';
 import Rodape from './componentes/Rodape';
 import SecaoSlider from './componentes/Secao-Slider';
+import Form from './componentes/Form/Form';
 
 
 function App() {
@@ -19,13 +20,15 @@ function App() {
     setUsuarios([...usuarios, usuario]) 
   }
 
+  // <Formulario />
+
   return (
     <div className="App" id="home">
       <Menu />
       <Introducao />
       <Secao2 />
-      <SecaoSlider />
-      <Formulario aoUsuarioCadastrado= {usuario => novoUsuarioAdicionado(usuario)}/>      
+      <SecaoSlider />   
+      <Form />   
       <Rodape />
     </div>
   );
