@@ -18,7 +18,7 @@ const Formulario = (props) => {
             </div>
             <h2 className='segundo-titulo-hidden' >Preencha o Formulário para ficar por dentro das novidades da RubBank!</h2>
             <section className='formulario formatacao' >
-                <form id="form" name="contact"
+                <form id="form" name="contact" method='POST'
                      netlify> 
                     <img src={logo2} alt="logo RubBank" className='img-form-hidden' />
 
