@@ -14,6 +14,9 @@ function Popup(props){
                     <img src={close} alt="" />
                 </button>
                 { props.children }
+                <button className="btn-hidden" onClick={() => props.setTrigger(false)}>
+                    <img src={close} alt="" />
+                </button>
             </div>
         </div>
 
